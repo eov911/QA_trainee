@@ -22,6 +22,15 @@ for tr in trs:
                 break
         B[1] = x
         A.append(B)
-for el in A:
-    print(el)
-    print('*******************************')
+# for el in A:
+#     print(el)
+#     print('*******************************')
+
+param = 10**10
+key = True
+for website in A:
+    if int(website[1]) < param:
+        print('LOL')
+        key = False
+if key == True:
+    print('It\'s OK')

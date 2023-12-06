@@ -45,4 +45,3 @@ for param in parametrs:
             print(f'{website[3]}) has {website[1]} unique visitors', end=' ')
             print(f'per month. (Expected more than {int(param)})')
             print()
-            key = False
